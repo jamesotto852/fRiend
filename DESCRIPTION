@@ -1,12 +1,20 @@
 Package: fRiend
-Title: What the Package Does (One Line, Title Case)
+Title: Generate a fRiendly Greeting for each R Session
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(person(given = "James",
+           family = "Otto",
+           role = c("aut", "cre"),
+           email = "jamesotto852@gmail.com",
+           comment = c(ORCID = "0000-0002-0665-2515")))
+Description: Exports `greeting_octopus()` which generates an ASCII art
+  octopus with randomized facial expressions and coloring, `cat()`-ing it to the console.
+  The main use case is including the function call in the .Rprofile so that an
+  octopus is generated every time a session is started.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Imports:
+  glue,
+  crayon
