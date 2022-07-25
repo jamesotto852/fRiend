@@ -33,8 +33,8 @@ if (interactive()) {
 
 Generally, your `.Rprofile` should be located in your [home
 directory](https://en.wikipedia.org/wiki/Home_directory). If you have
-[**devtools**](https://devtools.r-lib.org/) installed, you can edit your
-`.Rprofile` by executing `devtools::edit_r_profile()`.
+[**usethis**](https://usethis.r-lib.org/) installed, you can edit it
+with `usethis::edit_r_profile()`.
 
 <!-- For information on how to customize your `.Rprofile`,
 I recommend checking out [my blog post](link), where I go through what I have in mine. -->
