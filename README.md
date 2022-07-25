@@ -4,6 +4,8 @@
 # fRiend
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/jamesotto852/fRiend/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jamesotto852/fRiend/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 **fRiend** exports one function: `greeting_octopus()`. This generates an
