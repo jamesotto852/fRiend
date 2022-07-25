@@ -17,8 +17,9 @@ ASCII art octopus with randomized facial expressions and coloring,
 ## Set up an octopus greeting
 
 The main use-case of `greeting_octopus()` is including it in your
-`.Rprofile` so that it is executed each time you start up an R session.
-I recommend wrapping it in `if (interactive()) { ... }`, like this:
+[`.Rprofile`](https://rstats.wtf/r-startup.html#rprofile) so that it is
+executed each time you start up an R session. I recommend wrapping it in
+`if (interactive()) { ... }`, like this:
 
 ``` r
 if (interactive()) {
@@ -78,7 +79,7 @@ Finally, note that `greeting_octopus()` is customizible. If you’re not
 feeling the angry eyes, you can disable them by setting
 `include_angry = FALSE`. Also, if you’d rather draw from a different
 color pallet you can provide an alternative list of functions from
-**crayon** to `color_funs`:
+[**crayon**](https://github.com/r-lib/crayon) to `color_funs`:
 
 <p align="center">
 <img src="man/figures/custom_colors.png"  align="center"  width="80%" />
