@@ -10,11 +10,9 @@
 ASCII art octopus with randomized facial expressions and coloring,
 `cat()`-ing it to the console:
 
-<div style="text-align: center;">
-
+<p align="center">
 <img src="man/figures/greeting_octopus_call.png"  align="center"  width="80%" />
-
-</div>
+</p>
 
 ## Set up an octopus greeting
 
@@ -53,28 +51,26 @@ remotes::install_github("jamesotto852/fRiend")
 Here are a few examples of the different kinds of octopodes you can get
 from `greeting_octopus()`:
 
-<div style="text-align: center;">
-
-<table align="center" style="border: none; border-spacing: 3px; border-collapse: collapse;">
-<tr style="border: none;">
-<td style="border: none;">
+<p align="center">
+<table align="center" style="border-spacing: 0; border-collapse: collapse;">
+<tr>
+<td style="padding: 0px;">
 <img src="man/figures/ex_Winky.png"  align="center"  width="100%" />
 </td>
-<td style="border: none;">
+<td style="padding: 0px;">
 <img src="man/figures/ex_Angry.png"  align="center"  width="100%" />
 </td>
 </tr>
-<tr style="border: none;">
-<td style="border: none;">
+<tr>
+<td style="padding: 0px;">
 <img src="man/figures/ex_Blinky.png"  align="center"  width="100%" />
 </td>
-<td style="border: none;">
+<td style="padding: 0px;">
 <img src="man/figures/ex_Sleepy.png"  align="center"  width="100%" />
 </td>
 </tr>
 </table>
-
-</div>
+</p>
 
 ------------------------------------------------------------------------
 
@@ -84,8 +80,6 @@ feeling the angry eyes, you can disable them by setting
 color pallet you can provide an alternative list of functions from
 **crayon** to `color_funs`:
 
-<div style="text-align: center;">
-
+<p align="center">
 <img src="man/figures/custom_colors.png"  align="center"  width="80%" />
-
-</div>
+</p>
